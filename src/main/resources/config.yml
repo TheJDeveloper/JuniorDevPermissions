@@ -1,0 +1,27 @@
+# Use to define the levels of permissions
+
+permissions:
+
+  # Permission level names (Order does not matter)
+  names:
+    -operator
+    -member
+
+  # Permission level for each category
+  #
+  # Numeric level is for general permissions
+  #
+  # Tags are used for certain level to have higher level permissions
+  # Example:
+  #   Build team cannot moderate, but can build
+  #   Moderators can moderate, but cannot build
+  #   Admins can do both
+  #   Tags can allow build teams to build without disrupting a permission level chain
+  levels:
+    operator:
+      level: -1
+      tags: ""
+    member:
+      level: 0
+      tags: ""
+
