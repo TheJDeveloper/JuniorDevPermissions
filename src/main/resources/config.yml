@@ -5,7 +5,7 @@ permissions:
   # Permission level names (Order does not matter)
   names:
     -operator
-    -member
+    -default
 
   # Permission level for each category
   #
@@ -13,15 +13,18 @@ permissions:
   #
   # Tags are used for certain level to have higher level permissions
   # Example:
-  #   Build team cannot moderate, but can build
-  #   Moderators can moderate, but cannot build
-  #   Admins can do both
+  #   -Build team cannot moderate, but can build
+  #   -Moderators can moderate, but cannot build
+  #   -Admins can do both
   #   Tags can allow build teams to build without disrupting a permission level chain
   levels:
     operator:
       level: -1
       tags: ""
-    member:
+    default:
       level: 0
       tags: ""
 
+  #Sets the default permission level for anyone who joins
+  default: "default"
+players:
