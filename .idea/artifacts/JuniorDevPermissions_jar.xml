@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="JuniorDevPermissions:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/JuniorDevPermissions_jar</output-path>
+    <root id="archive" name="JuniorDevPermissions.jar">
+      <element id="module-output" name="JuniorDevPermissions" />
+    </root>
+  </artifact>
+</component>

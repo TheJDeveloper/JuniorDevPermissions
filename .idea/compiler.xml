@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="JuniorDevPermissions" target="1.5" />
+      <module name="JuniorDevPermissions" target="16" />
     </bytecodeTargetLevel>
   </component>
 </project>
